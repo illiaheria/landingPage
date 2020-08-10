@@ -415,6 +415,11 @@ padding-bottom: 8px;
 	opacity: 1;
 }
 
+.audiclub a img{
+	height: 110px;
+	padding-top: 20px;
+}
+
 /* -- Features Styles -- */
 
 .features{
@@ -525,7 +530,7 @@ padding-bottom: 8px;
 .offer h2{
 	font-size: 46px;
 	line-height: 40px;
-	padding: 8px 0;
+	padding: 50px 0;
 }
 
 .offer .btn-primary{
@@ -659,6 +664,14 @@ padding-bottom: 8px;
 	color: #fff;
 }
 
+.footer-hero a {
+	color: inherit;
+}
+
+.footer-hero a:hover {
+	color: #ffc600;
+}
+
 .footer-hero .btn-primary {
 	font-size: 40px;
 	font-weight: 900;
@@ -734,7 +747,11 @@ padding-bottom: 8px;
 		padding-top: 0;
 	}
 }
-
+@media only screen and (max-width: 1199px) {
+	.footer-hero .btn-primary {
+		font-size: 36px;
+	}
+}
 @media only screen and (max-width: 991px) {
 	.logo-holder {
 		text-align: center;
@@ -777,7 +794,6 @@ padding-bottom: 8px;
 		line-height: 40px;
 		padding-bottom: 20px;
 	}
-
 }
 
 @media only screen and (max-width: 767px) {
@@ -813,6 +829,17 @@ padding-bottom: 8px;
 	.offer h2 {
 		font-size: 42px;
 	}
+	.clients {
+		padding-bottom: 30px;
+	}
+	
+	.clients h6 {
+		padding-bottom: 14px;
+		font-size: 30px;
+	}
+	.clients img {
+		height: 180px;
+	}
 }
 
 @media only screen and (max-width: 500px) {
@@ -830,7 +857,7 @@ padding-bottom: 8px;
 		font-size: 46px;
 	}
 	.hero-text h1 .big-title {
-		font-size: 68px;
+		font-size: 45px;
 		line-height: 36px;
 	}
 	.hero-text h2 {
@@ -838,6 +865,10 @@ padding-bottom: 8px;
 	}
 	.hero-text {
 		margin-top: 80px;
+	}
+
+	.features {
+		padding-bottom: 170px;
 	}
 
 	.click-through .hero-text h1{
@@ -870,7 +901,9 @@ padding-bottom: 8px;
 	.offer h2 {
 		font-size: 38px;
 	}
-
+	.clients img {
+		height: 150px;
+	}
 }
 
 @media only screen and (max-width: 400px) {
